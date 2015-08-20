@@ -1,8 +1,15 @@
+language: node_js
+node_js:
+  - "0.12"
+  - "0.10"
+  - "iojs"
 services:
   - postgres
-before_script:
-  - createdb
 env:
   global:
     - PGDATABASE=travis_ci_test
     - DBUSER=postgres
+before_script:
+  - createdb
+notifications:
+  email: false
