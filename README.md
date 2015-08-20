@@ -3,6 +3,8 @@ Simplified postgres querying with bluebird
 
 ## Description
 
+[![Build Status](https://travis-ci.org/Janpot/pg-query-bluebird.svg)](https://travis-ci.org/Janpot/pg-query-bluebird)
+
 Run queries with node-postgres with less boilerplate.
 Similar to [pg-query](https://www.npmjs.com/package/pg-query) but uses [bluebird](https://www.npmjs.com/package/bluebird).
 
