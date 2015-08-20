@@ -1,0 +1,40 @@
+{
+  "name": "pg-query-bluebird",
+  "version": "1.0.0",
+  "description": "Simplified postgres querying with bluebird",
+  "main": "lib",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "test-loc": "PGDATABASE=test PGHOST=192.168.99.100 PGUSER=postgres npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://janpot@github.com/janpot/pg-query-bluebird.git"
+  },
+  "keywords": [
+    "pg",
+    "postgres",
+    "bluebird",
+    "query"
+  ],
+  "author": "Jan Potoms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janpot/pg-query-bluebird/issues"
+  },
+  "homepage": "https://github.com/janpot/pg-query-bluebird",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "pg": "*"
+  },
+  "peerDependencies": {
+    "pg": "*"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34"
+  }
+}

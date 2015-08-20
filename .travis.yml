@@ -1,0 +1,8 @@
+services:
+  - postgres
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+env:
+  global:
+    - PGDATABASE=travis_ci_test
+    - DBUSER=postgres
