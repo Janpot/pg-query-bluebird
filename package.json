@@ -1,6 +1,6 @@
 {
   "name": "pg-query-bluebird",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Simplified postgres querying with bluebird",
   "main": "lib",
   "directories": {
