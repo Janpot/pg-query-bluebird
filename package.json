@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha test",
-    "test-loc": "PGDATABASE=test PGHOST=192.168.99.100 PGUSER=postgres npm test"
+    "test-loc": "PGDATABASE=test PGHOST=192.168.99.100 PGUSER=postgres PGPASSWORD=password npm test"
   },
   "repository": {
     "type": "git",

@@ -25,19 +25,19 @@ query('SELECT NOW()')
 
 ### Query rows
 
-`Promise<Array<Object>> query(String text | Object query, [Array<dynamic> values])`
+`Promise<Array<Object>> query(String text | Object query | Array<Object> queries, [Array<dynamic> values])`
 
 Query the db, returns an array of rows.
 
 ### Query single row
 
-`Promise<Object> query.single(String text | Object query, [Array<dynamic> values])`
+`Promise<Object> query.single(String text | Object query | Array<Object> queries, [Array<dynamic> values])`
 
 Query a single row.
 
 ### Original `pg` query
 
-`Promise<Object> query.raw(String text | Object query, [Array<dynamic> values])`
+`Promise<Object> query.raw(String text | Object query | Array<Object> queries, [Array<dynamic> values])`
 
 Query the db, returns a full result `result.rows`,...
 
