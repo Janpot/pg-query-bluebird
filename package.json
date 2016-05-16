@@ -35,6 +35,6 @@
     "pg": "*"
   },
   "dependencies": {
-    "bluebird": "^2.9.34"
+    "bluebird": "^3.3.5"
   }
 }
