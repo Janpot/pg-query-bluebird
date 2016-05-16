@@ -59,3 +59,8 @@ var rows = Promise.using(query.connect(CONN_STR), function (query) {
   // return query.raw(...)
 });
 ```
+
+## History
+
+### 1.0.0
+- update to bluebird 3
